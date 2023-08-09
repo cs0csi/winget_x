@@ -35,7 +35,7 @@ This PowerShell script creates a scheduled task to run the `winget upgrade --all
 
 
 
-# App Deployment PowerShell Script (AppDeploymentScript.ps1.ps1)
+# App Deployment PowerShell Script (AppDeploymentScript.ps1)
 
 ```markdown
 This PowerShell script automates the installation of a list of applications using Windows Package Manager (`winget`). It performs pre-installation checks, installs the specified applications, and provides a summary of successful, already installed, and failed installations.
@@ -73,7 +73,3 @@ Edit the script to customize the list of applications you want to install. Locat
 ## Disclaimer
 
 Please use this script responsibly and make sure to review and understand the script's functionality before running it. The script performs installations and may modify your system. The author is not responsible for any unintended consequences.
-
-## License
-
-This script is provided under the [MIT License](LICENSE).
