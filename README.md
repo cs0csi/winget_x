@@ -75,8 +75,7 @@ Edit the script to customize the list of applications you want to install. Locat
 Please use this script responsibly and make sure to review and understand the script's functionality before running it. The script performs installations and may modify your system. The author is not responsible for any unintended consequences.
 
 
-```markdown
-# ScheduledPatchTask.ps1
+# Scheduled Patch Task (ScheduledPatchTask.ps1)
 
 ScheduledPatchTask.ps1 is a PowerShell script that automates Windows updates by creating a scheduled task to run the Get-WindowsUpdate cmdlet and install updates silently.
 
