@@ -73,3 +73,40 @@ Edit the script to customize the list of applications you want to install. Locat
 ## Disclaimer
 
 Please use this script responsibly and make sure to review and understand the script's functionality before running it. The script performs installations and may modify your system. The author is not responsible for any unintended consequences.
+
+
+```markdown
+# ScheduledPatchTask.ps1
+
+ScheduledPatchTask.ps1 is a PowerShell script that automates Windows updates by creating a scheduled task to run the Get-WindowsUpdate cmdlet and install updates silently.
+
+## Prerequisites
+
+- Windows PowerShell
+- Internet connectivity (for initial setup if the Get-WindowsUpdate cmdlet is not available)
+- Administrative privileges (for installing modules and creating scheduled tasks)
+
+## Usage
+
+1. Clone or download this repository to your local machine.
+
+2. Open a PowerShell terminal as an administrator.
+
+3. Navigate to the directory where you've saved the "ScheduledPatchTask.ps1" script.
+
+4. Run the script using the following command:
+   
+   ```powershell
+   .\ScheduledPatchTask.ps1
+   ```
+
+   The script will check if the Get-WindowsUpdate cmdlet is available. If not, it will attempt to install the PSWindowsUpdate module. Then, it creates a scheduled task that runs the Windows Update process silently.
+
+## Note
+
+- The script requires administrative privileges for module installation and task creation.
+- The script assumes the PSWindowsUpdate module is not already installed. You can modify the script to accommodate scenarios where the module is already available.
+
+## Disclaimer
+
+Use this script at your own risk. Make sure to review the script content and understand its actions before running it on your system.
