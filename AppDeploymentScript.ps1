@@ -51,7 +51,7 @@ $applications = @(
     @{Id="Greenshot.Greenshot"; Name="Greenshot"},
     @{Id="TeamViewer.TeamViewer"; Name="TeamViewer"},
     @{Id="7zip.7zip"; Name="7-Zip"},
-    @{Id="Google.Drive"; Name="Google Drive"},
+    @{Id="Google.GoogleDrive"; Name="Google Drive"},
     @{Id="CodecGuide.K-LiteCodecPack.Basic"; Name="K-Lite Codec Pack Basic"},
     @{Id="qBittorrent.qBittorrent"; Name="qBittorrent"},
     @{Id="Python.Python.3.12"; Name="Python 3.12"},
